@@ -18,10 +18,17 @@ body {
     bottom: 5rem;
     justify-content: center;
 }
-
-.first-column {
+.form-group {
     display: flex-box;
     position: relative;
+    top: -2rem;
+    left: 12rem;
+    width: 100%;
+    border: 1px;
+}
+.first-column {
+    display: flex-box;
+    
     top: 0;
     left: 0;
     width: 25%;  
@@ -29,21 +36,20 @@ body {
 }
 .second-column {
     display: flex-box;
-    position: relative;
+    
     top: 0;
     left: 0;
     width: 25%;
 }
 .third-column {
     display: flex-box;
-    position: relative;
+    
     top: 0;
     left: 0;
     width: 25%;
     }
 .fourth-column {
     display: flex-box;
-    /*position: relative;*/
    align-items: stretch;
     top: 0;
     left: 0;
