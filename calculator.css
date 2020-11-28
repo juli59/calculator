@@ -1,0 +1,105 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.flex-container {
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    left: 20%;
+    top: 5rem;
+    bottom: 5rem;
+    justify-content: center;
+}
+
+.first-column {
+    display: flex-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25%;  
+
+}
+.second-column {
+    display: flex-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+.third-column {
+    display: flex-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25%;
+    }
+.fourth-column {
+    display: flex-box;
+    /*position: relative;*/
+   align-items: stretch;
+    top: 0;
+    left: 0;
+    width: 25%;
+    
+}
+
+.btn--equal {
+    display: flex;
+    align-items: stretch;
+    margin: 5px;
+    height: 41%;
+}
+.btn--number {
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+
+}
+.btn--plus{
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+}
+.btn--minus {
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+}
+.btn--point {
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+}
+.btn--multi {
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+}
+.btn--clear{
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+}
+.btn--divide {
+    margin: 5px;
+    height: 2rem;
+    width: 3rem;
+    border: 5px;
+}
+
+
+
