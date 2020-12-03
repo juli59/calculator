@@ -33,7 +33,6 @@ body {
 }
 .first-column {
     display: flex-box;
-    
     top: 0;
     left: 0;
     width: 25%;  
@@ -55,8 +54,6 @@ body {
     }
 .fourth-column {
     display: flex-box;
-    
-  
     top: 0;
     left: 0;
     width: 25%;
@@ -83,36 +80,42 @@ body {
     height: 2rem;
     width: 3rem;
     border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(139, 135, 135);
 }
 .btnMinus {
     margin: 5px;
     height: 2rem;
     width: 3rem;
     border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(139, 135, 135);
 }
 .btnPoint {
     margin: 5px;
     height: 2rem;
     width: 3rem;
     border: 1px solid rgb(0, 0, 0);
+    
 }
 .btnMulti {
     margin: 5px;
     height: 2rem;
     width: 3rem;
     border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(139, 135, 135);
 }
 .btnClear{
     margin: 5px;
     height: 2rem;
     width: 3rem;
     border: 1px solid rgb(0, 0, 0);
+    
 }
 .btnDivide {
     margin: 5px;
     height: 2rem;
     width: 3rem;
     border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(139, 135, 135);
 }
 
 

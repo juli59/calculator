@@ -29,6 +29,9 @@ const calcs = {
     '*': function (a, b) { return a * b },
     
 }
+document.querySelector('.btnEqual').addEventListener('click', () => {
+    console.log(event);
+})
 
 /*const summation = document.getElementsByClassName(btnNumber).textContent => {
     
